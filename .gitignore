@@ -161,3 +161,10 @@ cython_debug/
 
 data/
 wandb/
+santacoder-finetuning/
+____pycache__/
+gala_code.json
+test_code.json
+chat/
+checkpoints/
+auto_coding/

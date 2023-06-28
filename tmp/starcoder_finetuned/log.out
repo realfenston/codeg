@@ -1,0 +1,2960 @@
+2023-06-20 14:02:44,581 - trainer - INFO - Use pytorch device: cuda, with gpu_number=1
+2023-06-20 14:02:44,581 - trainer - INFO -    see seed for random, numpy and torch 0
+2023-06-20 14:02:44,593 - trainer - INFO - gpt.base_model.model.transformer.wte.weight	torch.Size([49152, 6144])
+2023-06-20 14:02:44,596 - trainer - INFO - gpt.base_model.model.transformer.wpe.weight	torch.Size([8192, 6144])
+2023-06-20 14:02:44,599 - trainer - INFO - gpt.base_model.model.transformer.h.0.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,601 - trainer - INFO - gpt.base_model.model.transformer.h.0.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,604 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,606 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,609 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,611 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,614 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,616 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,619 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,621 - trainer - INFO - gpt.base_model.model.transformer.h.0.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,624 - trainer - INFO - gpt.base_model.model.transformer.h.0.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,626 - trainer - INFO - gpt.base_model.model.transformer.h.0.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,629 - trainer - INFO - gpt.base_model.model.transformer.h.0.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,631 - trainer - INFO - gpt.base_model.model.transformer.h.0.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,634 - trainer - INFO - gpt.base_model.model.transformer.h.0.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,636 - trainer - INFO - gpt.base_model.model.transformer.h.0.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,639 - trainer - INFO - gpt.base_model.model.transformer.h.0.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,641 - trainer - INFO - gpt.base_model.model.transformer.h.0.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,644 - trainer - INFO - gpt.base_model.model.transformer.h.1.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,646 - trainer - INFO - gpt.base_model.model.transformer.h.1.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,649 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,651 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,654 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,657 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,659 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,662 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,664 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,667 - trainer - INFO - gpt.base_model.model.transformer.h.1.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,669 - trainer - INFO - gpt.base_model.model.transformer.h.1.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,672 - trainer - INFO - gpt.base_model.model.transformer.h.1.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,674 - trainer - INFO - gpt.base_model.model.transformer.h.1.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,677 - trainer - INFO - gpt.base_model.model.transformer.h.1.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,679 - trainer - INFO - gpt.base_model.model.transformer.h.1.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,682 - trainer - INFO - gpt.base_model.model.transformer.h.1.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,684 - trainer - INFO - gpt.base_model.model.transformer.h.1.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,687 - trainer - INFO - gpt.base_model.model.transformer.h.1.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,689 - trainer - INFO - gpt.base_model.model.transformer.h.2.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,692 - trainer - INFO - gpt.base_model.model.transformer.h.2.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,694 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,697 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,700 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,702 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,705 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,707 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,710 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,712 - trainer - INFO - gpt.base_model.model.transformer.h.2.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,715 - trainer - INFO - gpt.base_model.model.transformer.h.2.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,717 - trainer - INFO - gpt.base_model.model.transformer.h.2.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,720 - trainer - INFO - gpt.base_model.model.transformer.h.2.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,722 - trainer - INFO - gpt.base_model.model.transformer.h.2.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,725 - trainer - INFO - gpt.base_model.model.transformer.h.2.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,727 - trainer - INFO - gpt.base_model.model.transformer.h.2.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,730 - trainer - INFO - gpt.base_model.model.transformer.h.2.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,732 - trainer - INFO - gpt.base_model.model.transformer.h.2.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,735 - trainer - INFO - gpt.base_model.model.transformer.h.3.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,737 - trainer - INFO - gpt.base_model.model.transformer.h.3.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,740 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,742 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,745 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,747 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,750 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,753 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,755 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,758 - trainer - INFO - gpt.base_model.model.transformer.h.3.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,760 - trainer - INFO - gpt.base_model.model.transformer.h.3.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,763 - trainer - INFO - gpt.base_model.model.transformer.h.3.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,765 - trainer - INFO - gpt.base_model.model.transformer.h.3.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,768 - trainer - INFO - gpt.base_model.model.transformer.h.3.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,770 - trainer - INFO - gpt.base_model.model.transformer.h.3.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,773 - trainer - INFO - gpt.base_model.model.transformer.h.3.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,775 - trainer - INFO - gpt.base_model.model.transformer.h.3.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,778 - trainer - INFO - gpt.base_model.model.transformer.h.3.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,781 - trainer - INFO - gpt.base_model.model.transformer.h.4.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,783 - trainer - INFO - gpt.base_model.model.transformer.h.4.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,786 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,788 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,791 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,793 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,796 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,798 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,801 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,803 - trainer - INFO - gpt.base_model.model.transformer.h.4.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,806 - trainer - INFO - gpt.base_model.model.transformer.h.4.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,808 - trainer - INFO - gpt.base_model.model.transformer.h.4.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,811 - trainer - INFO - gpt.base_model.model.transformer.h.4.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,814 - trainer - INFO - gpt.base_model.model.transformer.h.4.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,816 - trainer - INFO - gpt.base_model.model.transformer.h.4.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,819 - trainer - INFO - gpt.base_model.model.transformer.h.4.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,821 - trainer - INFO - gpt.base_model.model.transformer.h.4.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,824 - trainer - INFO - gpt.base_model.model.transformer.h.4.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,826 - trainer - INFO - gpt.base_model.model.transformer.h.5.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,829 - trainer - INFO - gpt.base_model.model.transformer.h.5.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,831 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,834 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,836 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,839 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,841 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,844 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,846 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,849 - trainer - INFO - gpt.base_model.model.transformer.h.5.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,851 - trainer - INFO - gpt.base_model.model.transformer.h.5.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,854 - trainer - INFO - gpt.base_model.model.transformer.h.5.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,857 - trainer - INFO - gpt.base_model.model.transformer.h.5.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,859 - trainer - INFO - gpt.base_model.model.transformer.h.5.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,862 - trainer - INFO - gpt.base_model.model.transformer.h.5.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,864 - trainer - INFO - gpt.base_model.model.transformer.h.5.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,867 - trainer - INFO - gpt.base_model.model.transformer.h.5.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,869 - trainer - INFO - gpt.base_model.model.transformer.h.5.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,872 - trainer - INFO - gpt.base_model.model.transformer.h.6.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,874 - trainer - INFO - gpt.base_model.model.transformer.h.6.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,877 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,879 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,882 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,884 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,887 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,890 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,892 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,895 - trainer - INFO - gpt.base_model.model.transformer.h.6.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,897 - trainer - INFO - gpt.base_model.model.transformer.h.6.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,900 - trainer - INFO - gpt.base_model.model.transformer.h.6.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,902 - trainer - INFO - gpt.base_model.model.transformer.h.6.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,905 - trainer - INFO - gpt.base_model.model.transformer.h.6.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,907 - trainer - INFO - gpt.base_model.model.transformer.h.6.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,910 - trainer - INFO - gpt.base_model.model.transformer.h.6.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,912 - trainer - INFO - gpt.base_model.model.transformer.h.6.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,915 - trainer - INFO - gpt.base_model.model.transformer.h.6.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,917 - trainer - INFO - gpt.base_model.model.transformer.h.7.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,920 - trainer - INFO - gpt.base_model.model.transformer.h.7.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,922 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,925 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,927 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,930 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,932 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,935 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,938 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,940 - trainer - INFO - gpt.base_model.model.transformer.h.7.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,943 - trainer - INFO - gpt.base_model.model.transformer.h.7.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,945 - trainer - INFO - gpt.base_model.model.transformer.h.7.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,948 - trainer - INFO - gpt.base_model.model.transformer.h.7.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,950 - trainer - INFO - gpt.base_model.model.transformer.h.7.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,953 - trainer - INFO - gpt.base_model.model.transformer.h.7.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:44,955 - trainer - INFO - gpt.base_model.model.transformer.h.7.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,958 - trainer - INFO - gpt.base_model.model.transformer.h.7.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:44,960 - trainer - INFO - gpt.base_model.model.transformer.h.7.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,963 - trainer - INFO - gpt.base_model.model.transformer.h.8.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:44,965 - trainer - INFO - gpt.base_model.model.transformer.h.8.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:44,968 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:44,970 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:44,973 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,975 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:44,978 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:44,980 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:44,983 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:44,985 - trainer - INFO - gpt.base_model.model.transformer.h.8.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:44,988 - trainer - INFO - gpt.base_model.model.transformer.h.8.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:44,991 - trainer - INFO - gpt.base_model.model.transformer.h.8.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:44,993 - trainer - INFO - gpt.base_model.model.transformer.h.8.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:44,996 - trainer - INFO - gpt.base_model.model.transformer.h.8.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:44,998 - trainer - INFO - gpt.base_model.model.transformer.h.8.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,001 - trainer - INFO - gpt.base_model.model.transformer.h.8.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,003 - trainer - INFO - gpt.base_model.model.transformer.h.8.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,006 - trainer - INFO - gpt.base_model.model.transformer.h.8.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,008 - trainer - INFO - gpt.base_model.model.transformer.h.9.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,011 - trainer - INFO - gpt.base_model.model.transformer.h.9.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,013 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,016 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,018 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,021 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,023 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,026 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,028 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,031 - trainer - INFO - gpt.base_model.model.transformer.h.9.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,033 - trainer - INFO - gpt.base_model.model.transformer.h.9.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,036 - trainer - INFO - gpt.base_model.model.transformer.h.9.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,039 - trainer - INFO - gpt.base_model.model.transformer.h.9.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,041 - trainer - INFO - gpt.base_model.model.transformer.h.9.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,044 - trainer - INFO - gpt.base_model.model.transformer.h.9.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,046 - trainer - INFO - gpt.base_model.model.transformer.h.9.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,049 - trainer - INFO - gpt.base_model.model.transformer.h.9.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,051 - trainer - INFO - gpt.base_model.model.transformer.h.9.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,054 - trainer - INFO - gpt.base_model.model.transformer.h.10.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,056 - trainer - INFO - gpt.base_model.model.transformer.h.10.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,059 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,061 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,064 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,066 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,069 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,071 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,074 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,076 - trainer - INFO - gpt.base_model.model.transformer.h.10.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,079 - trainer - INFO - gpt.base_model.model.transformer.h.10.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,081 - trainer - INFO - gpt.base_model.model.transformer.h.10.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,084 - trainer - INFO - gpt.base_model.model.transformer.h.10.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,086 - trainer - INFO - gpt.base_model.model.transformer.h.10.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,089 - trainer - INFO - gpt.base_model.model.transformer.h.10.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,092 - trainer - INFO - gpt.base_model.model.transformer.h.10.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,094 - trainer - INFO - gpt.base_model.model.transformer.h.10.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,097 - trainer - INFO - gpt.base_model.model.transformer.h.10.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,099 - trainer - INFO - gpt.base_model.model.transformer.h.11.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,102 - trainer - INFO - gpt.base_model.model.transformer.h.11.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,104 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,107 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,109 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,112 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,114 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,117 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,119 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,122 - trainer - INFO - gpt.base_model.model.transformer.h.11.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,124 - trainer - INFO - gpt.base_model.model.transformer.h.11.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,127 - trainer - INFO - gpt.base_model.model.transformer.h.11.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,129 - trainer - INFO - gpt.base_model.model.transformer.h.11.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,132 - trainer - INFO - gpt.base_model.model.transformer.h.11.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,134 - trainer - INFO - gpt.base_model.model.transformer.h.11.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,137 - trainer - INFO - gpt.base_model.model.transformer.h.11.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,139 - trainer - INFO - gpt.base_model.model.transformer.h.11.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,142 - trainer - INFO - gpt.base_model.model.transformer.h.11.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,144 - trainer - INFO - gpt.base_model.model.transformer.h.12.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,147 - trainer - INFO - gpt.base_model.model.transformer.h.12.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,149 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,152 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,155 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,157 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,160 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,162 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,165 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,167 - trainer - INFO - gpt.base_model.model.transformer.h.12.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,170 - trainer - INFO - gpt.base_model.model.transformer.h.12.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,172 - trainer - INFO - gpt.base_model.model.transformer.h.12.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,175 - trainer - INFO - gpt.base_model.model.transformer.h.12.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,177 - trainer - INFO - gpt.base_model.model.transformer.h.12.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,180 - trainer - INFO - gpt.base_model.model.transformer.h.12.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,182 - trainer - INFO - gpt.base_model.model.transformer.h.12.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,185 - trainer - INFO - gpt.base_model.model.transformer.h.12.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,187 - trainer - INFO - gpt.base_model.model.transformer.h.12.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,190 - trainer - INFO - gpt.base_model.model.transformer.h.13.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,192 - trainer - INFO - gpt.base_model.model.transformer.h.13.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,195 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,197 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,200 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,202 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,205 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,208 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,210 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,213 - trainer - INFO - gpt.base_model.model.transformer.h.13.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,215 - trainer - INFO - gpt.base_model.model.transformer.h.13.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,218 - trainer - INFO - gpt.base_model.model.transformer.h.13.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,220 - trainer - INFO - gpt.base_model.model.transformer.h.13.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,223 - trainer - INFO - gpt.base_model.model.transformer.h.13.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,225 - trainer - INFO - gpt.base_model.model.transformer.h.13.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,228 - trainer - INFO - gpt.base_model.model.transformer.h.13.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,230 - trainer - INFO - gpt.base_model.model.transformer.h.13.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,233 - trainer - INFO - gpt.base_model.model.transformer.h.13.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,235 - trainer - INFO - gpt.base_model.model.transformer.h.14.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,238 - trainer - INFO - gpt.base_model.model.transformer.h.14.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,240 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,243 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,245 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,248 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,250 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,253 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,255 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,258 - trainer - INFO - gpt.base_model.model.transformer.h.14.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,260 - trainer - INFO - gpt.base_model.model.transformer.h.14.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,263 - trainer - INFO - gpt.base_model.model.transformer.h.14.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,266 - trainer - INFO - gpt.base_model.model.transformer.h.14.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,268 - trainer - INFO - gpt.base_model.model.transformer.h.14.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,271 - trainer - INFO - gpt.base_model.model.transformer.h.14.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,273 - trainer - INFO - gpt.base_model.model.transformer.h.14.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,276 - trainer - INFO - gpt.base_model.model.transformer.h.14.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,278 - trainer - INFO - gpt.base_model.model.transformer.h.14.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,281 - trainer - INFO - gpt.base_model.model.transformer.h.15.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,283 - trainer - INFO - gpt.base_model.model.transformer.h.15.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,286 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,288 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,291 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,293 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,296 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,298 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,301 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,303 - trainer - INFO - gpt.base_model.model.transformer.h.15.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,306 - trainer - INFO - gpt.base_model.model.transformer.h.15.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,308 - trainer - INFO - gpt.base_model.model.transformer.h.15.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,311 - trainer - INFO - gpt.base_model.model.transformer.h.15.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,313 - trainer - INFO - gpt.base_model.model.transformer.h.15.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,316 - trainer - INFO - gpt.base_model.model.transformer.h.15.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,318 - trainer - INFO - gpt.base_model.model.transformer.h.15.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,321 - trainer - INFO - gpt.base_model.model.transformer.h.15.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,324 - trainer - INFO - gpt.base_model.model.transformer.h.15.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,326 - trainer - INFO - gpt.base_model.model.transformer.h.16.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,329 - trainer - INFO - gpt.base_model.model.transformer.h.16.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,331 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,334 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,336 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,339 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,341 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,344 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,346 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,349 - trainer - INFO - gpt.base_model.model.transformer.h.16.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,351 - trainer - INFO - gpt.base_model.model.transformer.h.16.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,354 - trainer - INFO - gpt.base_model.model.transformer.h.16.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,356 - trainer - INFO - gpt.base_model.model.transformer.h.16.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,359 - trainer - INFO - gpt.base_model.model.transformer.h.16.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,361 - trainer - INFO - gpt.base_model.model.transformer.h.16.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,364 - trainer - INFO - gpt.base_model.model.transformer.h.16.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,367 - trainer - INFO - gpt.base_model.model.transformer.h.16.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,369 - trainer - INFO - gpt.base_model.model.transformer.h.16.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,372 - trainer - INFO - gpt.base_model.model.transformer.h.17.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,374 - trainer - INFO - gpt.base_model.model.transformer.h.17.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,377 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,379 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,382 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,384 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,387 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,389 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,392 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,394 - trainer - INFO - gpt.base_model.model.transformer.h.17.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,397 - trainer - INFO - gpt.base_model.model.transformer.h.17.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,399 - trainer - INFO - gpt.base_model.model.transformer.h.17.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,402 - trainer - INFO - gpt.base_model.model.transformer.h.17.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,404 - trainer - INFO - gpt.base_model.model.transformer.h.17.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,407 - trainer - INFO - gpt.base_model.model.transformer.h.17.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,409 - trainer - INFO - gpt.base_model.model.transformer.h.17.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,412 - trainer - INFO - gpt.base_model.model.transformer.h.17.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,414 - trainer - INFO - gpt.base_model.model.transformer.h.17.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,417 - trainer - INFO - gpt.base_model.model.transformer.h.18.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,420 - trainer - INFO - gpt.base_model.model.transformer.h.18.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,422 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,425 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,427 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,430 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,432 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,435 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,437 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,440 - trainer - INFO - gpt.base_model.model.transformer.h.18.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,442 - trainer - INFO - gpt.base_model.model.transformer.h.18.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,445 - trainer - INFO - gpt.base_model.model.transformer.h.18.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,447 - trainer - INFO - gpt.base_model.model.transformer.h.18.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,450 - trainer - INFO - gpt.base_model.model.transformer.h.18.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,452 - trainer - INFO - gpt.base_model.model.transformer.h.18.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,455 - trainer - INFO - gpt.base_model.model.transformer.h.18.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,457 - trainer - INFO - gpt.base_model.model.transformer.h.18.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,460 - trainer - INFO - gpt.base_model.model.transformer.h.18.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,462 - trainer - INFO - gpt.base_model.model.transformer.h.19.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,465 - trainer - INFO - gpt.base_model.model.transformer.h.19.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,467 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,470 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,472 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,475 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,478 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,480 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,483 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,485 - trainer - INFO - gpt.base_model.model.transformer.h.19.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,488 - trainer - INFO - gpt.base_model.model.transformer.h.19.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,490 - trainer - INFO - gpt.base_model.model.transformer.h.19.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,493 - trainer - INFO - gpt.base_model.model.transformer.h.19.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,495 - trainer - INFO - gpt.base_model.model.transformer.h.19.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,498 - trainer - INFO - gpt.base_model.model.transformer.h.19.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,500 - trainer - INFO - gpt.base_model.model.transformer.h.19.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,503 - trainer - INFO - gpt.base_model.model.transformer.h.19.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,506 - trainer - INFO - gpt.base_model.model.transformer.h.19.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,508 - trainer - INFO - gpt.base_model.model.transformer.h.20.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,511 - trainer - INFO - gpt.base_model.model.transformer.h.20.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,513 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,516 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,518 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,521 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,523 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,526 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,528 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,531 - trainer - INFO - gpt.base_model.model.transformer.h.20.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,533 - trainer - INFO - gpt.base_model.model.transformer.h.20.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,536 - trainer - INFO - gpt.base_model.model.transformer.h.20.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,538 - trainer - INFO - gpt.base_model.model.transformer.h.20.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,541 - trainer - INFO - gpt.base_model.model.transformer.h.20.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,543 - trainer - INFO - gpt.base_model.model.transformer.h.20.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,546 - trainer - INFO - gpt.base_model.model.transformer.h.20.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,548 - trainer - INFO - gpt.base_model.model.transformer.h.20.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,551 - trainer - INFO - gpt.base_model.model.transformer.h.20.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,553 - trainer - INFO - gpt.base_model.model.transformer.h.21.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,556 - trainer - INFO - gpt.base_model.model.transformer.h.21.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,558 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,561 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,564 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,566 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,569 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,571 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,574 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,576 - trainer - INFO - gpt.base_model.model.transformer.h.21.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,579 - trainer - INFO - gpt.base_model.model.transformer.h.21.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,581 - trainer - INFO - gpt.base_model.model.transformer.h.21.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,584 - trainer - INFO - gpt.base_model.model.transformer.h.21.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,586 - trainer - INFO - gpt.base_model.model.transformer.h.21.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,589 - trainer - INFO - gpt.base_model.model.transformer.h.21.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,591 - trainer - INFO - gpt.base_model.model.transformer.h.21.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,594 - trainer - INFO - gpt.base_model.model.transformer.h.21.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,596 - trainer - INFO - gpt.base_model.model.transformer.h.21.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,599 - trainer - INFO - gpt.base_model.model.transformer.h.22.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,602 - trainer - INFO - gpt.base_model.model.transformer.h.22.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,604 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,607 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,609 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,612 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,614 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,617 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,619 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,622 - trainer - INFO - gpt.base_model.model.transformer.h.22.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,624 - trainer - INFO - gpt.base_model.model.transformer.h.22.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,627 - trainer - INFO - gpt.base_model.model.transformer.h.22.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,629 - trainer - INFO - gpt.base_model.model.transformer.h.22.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,632 - trainer - INFO - gpt.base_model.model.transformer.h.22.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,634 - trainer - INFO - gpt.base_model.model.transformer.h.22.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,637 - trainer - INFO - gpt.base_model.model.transformer.h.22.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,640 - trainer - INFO - gpt.base_model.model.transformer.h.22.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,642 - trainer - INFO - gpt.base_model.model.transformer.h.22.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,645 - trainer - INFO - gpt.base_model.model.transformer.h.23.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,647 - trainer - INFO - gpt.base_model.model.transformer.h.23.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,650 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,652 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,655 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,657 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,660 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,662 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,665 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,667 - trainer - INFO - gpt.base_model.model.transformer.h.23.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,670 - trainer - INFO - gpt.base_model.model.transformer.h.23.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,672 - trainer - INFO - gpt.base_model.model.transformer.h.23.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,675 - trainer - INFO - gpt.base_model.model.transformer.h.23.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,678 - trainer - INFO - gpt.base_model.model.transformer.h.23.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,680 - trainer - INFO - gpt.base_model.model.transformer.h.23.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,683 - trainer - INFO - gpt.base_model.model.transformer.h.23.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,685 - trainer - INFO - gpt.base_model.model.transformer.h.23.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,688 - trainer - INFO - gpt.base_model.model.transformer.h.23.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,690 - trainer - INFO - gpt.base_model.model.transformer.h.24.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,693 - trainer - INFO - gpt.base_model.model.transformer.h.24.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,695 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,698 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,700 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,703 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,706 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,708 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,711 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,713 - trainer - INFO - gpt.base_model.model.transformer.h.24.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,716 - trainer - INFO - gpt.base_model.model.transformer.h.24.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,718 - trainer - INFO - gpt.base_model.model.transformer.h.24.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,721 - trainer - INFO - gpt.base_model.model.transformer.h.24.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,723 - trainer - INFO - gpt.base_model.model.transformer.h.24.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,726 - trainer - INFO - gpt.base_model.model.transformer.h.24.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,728 - trainer - INFO - gpt.base_model.model.transformer.h.24.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,731 - trainer - INFO - gpt.base_model.model.transformer.h.24.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,733 - trainer - INFO - gpt.base_model.model.transformer.h.24.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,736 - trainer - INFO - gpt.base_model.model.transformer.h.25.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,738 - trainer - INFO - gpt.base_model.model.transformer.h.25.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,741 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,744 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,746 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,749 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,751 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,754 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,756 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,759 - trainer - INFO - gpt.base_model.model.transformer.h.25.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,761 - trainer - INFO - gpt.base_model.model.transformer.h.25.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,764 - trainer - INFO - gpt.base_model.model.transformer.h.25.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,766 - trainer - INFO - gpt.base_model.model.transformer.h.25.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,769 - trainer - INFO - gpt.base_model.model.transformer.h.25.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,771 - trainer - INFO - gpt.base_model.model.transformer.h.25.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,774 - trainer - INFO - gpt.base_model.model.transformer.h.25.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,776 - trainer - INFO - gpt.base_model.model.transformer.h.25.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,779 - trainer - INFO - gpt.base_model.model.transformer.h.25.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,782 - trainer - INFO - gpt.base_model.model.transformer.h.26.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,784 - trainer - INFO - gpt.base_model.model.transformer.h.26.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,787 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,789 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,792 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,794 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,797 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,799 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,802 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,804 - trainer - INFO - gpt.base_model.model.transformer.h.26.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,807 - trainer - INFO - gpt.base_model.model.transformer.h.26.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,809 - trainer - INFO - gpt.base_model.model.transformer.h.26.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,812 - trainer - INFO - gpt.base_model.model.transformer.h.26.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,814 - trainer - INFO - gpt.base_model.model.transformer.h.26.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,817 - trainer - INFO - gpt.base_model.model.transformer.h.26.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,819 - trainer - INFO - gpt.base_model.model.transformer.h.26.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,822 - trainer - INFO - gpt.base_model.model.transformer.h.26.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,824 - trainer - INFO - gpt.base_model.model.transformer.h.26.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,827 - trainer - INFO - gpt.base_model.model.transformer.h.27.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,829 - trainer - INFO - gpt.base_model.model.transformer.h.27.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,832 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,834 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,837 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,840 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,842 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,845 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,847 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,850 - trainer - INFO - gpt.base_model.model.transformer.h.27.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,852 - trainer - INFO - gpt.base_model.model.transformer.h.27.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,855 - trainer - INFO - gpt.base_model.model.transformer.h.27.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,857 - trainer - INFO - gpt.base_model.model.transformer.h.27.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,860 - trainer - INFO - gpt.base_model.model.transformer.h.27.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,862 - trainer - INFO - gpt.base_model.model.transformer.h.27.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,865 - trainer - INFO - gpt.base_model.model.transformer.h.27.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,867 - trainer - INFO - gpt.base_model.model.transformer.h.27.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,870 - trainer - INFO - gpt.base_model.model.transformer.h.27.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,872 - trainer - INFO - gpt.base_model.model.transformer.h.28.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,875 - trainer - INFO - gpt.base_model.model.transformer.h.28.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,877 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,880 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,882 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,885 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,887 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,890 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,893 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,895 - trainer - INFO - gpt.base_model.model.transformer.h.28.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,898 - trainer - INFO - gpt.base_model.model.transformer.h.28.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,900 - trainer - INFO - gpt.base_model.model.transformer.h.28.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,903 - trainer - INFO - gpt.base_model.model.transformer.h.28.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,905 - trainer - INFO - gpt.base_model.model.transformer.h.28.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,908 - trainer - INFO - gpt.base_model.model.transformer.h.28.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,910 - trainer - INFO - gpt.base_model.model.transformer.h.28.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,913 - trainer - INFO - gpt.base_model.model.transformer.h.28.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,915 - trainer - INFO - gpt.base_model.model.transformer.h.28.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,918 - trainer - INFO - gpt.base_model.model.transformer.h.29.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,920 - trainer - INFO - gpt.base_model.model.transformer.h.29.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,923 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,925 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,928 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,930 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,933 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,936 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,938 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,941 - trainer - INFO - gpt.base_model.model.transformer.h.29.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,943 - trainer - INFO - gpt.base_model.model.transformer.h.29.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,946 - trainer - INFO - gpt.base_model.model.transformer.h.29.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,948 - trainer - INFO - gpt.base_model.model.transformer.h.29.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,951 - trainer - INFO - gpt.base_model.model.transformer.h.29.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,953 - trainer - INFO - gpt.base_model.model.transformer.h.29.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:45,956 - trainer - INFO - gpt.base_model.model.transformer.h.29.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,958 - trainer - INFO - gpt.base_model.model.transformer.h.29.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:45,961 - trainer - INFO - gpt.base_model.model.transformer.h.29.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,963 - trainer - INFO - gpt.base_model.model.transformer.h.30.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:45,966 - trainer - INFO - gpt.base_model.model.transformer.h.30.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:45,968 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:45,971 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:45,973 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,976 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:45,978 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:45,981 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:45,983 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:45,986 - trainer - INFO - gpt.base_model.model.transformer.h.30.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:45,989 - trainer - INFO - gpt.base_model.model.transformer.h.30.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:45,991 - trainer - INFO - gpt.base_model.model.transformer.h.30.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:45,994 - trainer - INFO - gpt.base_model.model.transformer.h.30.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:45,996 - trainer - INFO - gpt.base_model.model.transformer.h.30.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:45,999 - trainer - INFO - gpt.base_model.model.transformer.h.30.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,001 - trainer - INFO - gpt.base_model.model.transformer.h.30.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,004 - trainer - INFO - gpt.base_model.model.transformer.h.30.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,006 - trainer - INFO - gpt.base_model.model.transformer.h.30.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,009 - trainer - INFO - gpt.base_model.model.transformer.h.31.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,011 - trainer - INFO - gpt.base_model.model.transformer.h.31.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,014 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,016 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,019 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,021 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,024 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,026 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,029 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,031 - trainer - INFO - gpt.base_model.model.transformer.h.31.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,034 - trainer - INFO - gpt.base_model.model.transformer.h.31.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,036 - trainer - INFO - gpt.base_model.model.transformer.h.31.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,039 - trainer - INFO - gpt.base_model.model.transformer.h.31.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,041 - trainer - INFO - gpt.base_model.model.transformer.h.31.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,044 - trainer - INFO - gpt.base_model.model.transformer.h.31.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,047 - trainer - INFO - gpt.base_model.model.transformer.h.31.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,049 - trainer - INFO - gpt.base_model.model.transformer.h.31.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,052 - trainer - INFO - gpt.base_model.model.transformer.h.31.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,054 - trainer - INFO - gpt.base_model.model.transformer.h.32.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,057 - trainer - INFO - gpt.base_model.model.transformer.h.32.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,059 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,062 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,064 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,067 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,069 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,072 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,074 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,077 - trainer - INFO - gpt.base_model.model.transformer.h.32.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,079 - trainer - INFO - gpt.base_model.model.transformer.h.32.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,082 - trainer - INFO - gpt.base_model.model.transformer.h.32.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,085 - trainer - INFO - gpt.base_model.model.transformer.h.32.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,087 - trainer - INFO - gpt.base_model.model.transformer.h.32.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,090 - trainer - INFO - gpt.base_model.model.transformer.h.32.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,092 - trainer - INFO - gpt.base_model.model.transformer.h.32.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,095 - trainer - INFO - gpt.base_model.model.transformer.h.32.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,097 - trainer - INFO - gpt.base_model.model.transformer.h.32.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,100 - trainer - INFO - gpt.base_model.model.transformer.h.33.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,102 - trainer - INFO - gpt.base_model.model.transformer.h.33.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,105 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,107 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,110 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,112 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,115 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,117 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,120 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,122 - trainer - INFO - gpt.base_model.model.transformer.h.33.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,125 - trainer - INFO - gpt.base_model.model.transformer.h.33.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,127 - trainer - INFO - gpt.base_model.model.transformer.h.33.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,130 - trainer - INFO - gpt.base_model.model.transformer.h.33.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,132 - trainer - INFO - gpt.base_model.model.transformer.h.33.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,135 - trainer - INFO - gpt.base_model.model.transformer.h.33.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,138 - trainer - INFO - gpt.base_model.model.transformer.h.33.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,140 - trainer - INFO - gpt.base_model.model.transformer.h.33.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,143 - trainer - INFO - gpt.base_model.model.transformer.h.33.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,145 - trainer - INFO - gpt.base_model.model.transformer.h.34.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,148 - trainer - INFO - gpt.base_model.model.transformer.h.34.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,150 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,153 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,155 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,158 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,160 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,163 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,165 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,168 - trainer - INFO - gpt.base_model.model.transformer.h.34.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,170 - trainer - INFO - gpt.base_model.model.transformer.h.34.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,173 - trainer - INFO - gpt.base_model.model.transformer.h.34.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,176 - trainer - INFO - gpt.base_model.model.transformer.h.34.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,178 - trainer - INFO - gpt.base_model.model.transformer.h.34.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,181 - trainer - INFO - gpt.base_model.model.transformer.h.34.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,183 - trainer - INFO - gpt.base_model.model.transformer.h.34.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,186 - trainer - INFO - gpt.base_model.model.transformer.h.34.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,188 - trainer - INFO - gpt.base_model.model.transformer.h.34.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,191 - trainer - INFO - gpt.base_model.model.transformer.h.35.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,193 - trainer - INFO - gpt.base_model.model.transformer.h.35.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,196 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,198 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,201 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,203 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,206 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,208 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,211 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,213 - trainer - INFO - gpt.base_model.model.transformer.h.35.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,216 - trainer - INFO - gpt.base_model.model.transformer.h.35.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,218 - trainer - INFO - gpt.base_model.model.transformer.h.35.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,221 - trainer - INFO - gpt.base_model.model.transformer.h.35.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,224 - trainer - INFO - gpt.base_model.model.transformer.h.35.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,226 - trainer - INFO - gpt.base_model.model.transformer.h.35.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,229 - trainer - INFO - gpt.base_model.model.transformer.h.35.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,231 - trainer - INFO - gpt.base_model.model.transformer.h.35.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,234 - trainer - INFO - gpt.base_model.model.transformer.h.35.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,236 - trainer - INFO - gpt.base_model.model.transformer.h.36.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,239 - trainer - INFO - gpt.base_model.model.transformer.h.36.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,241 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,244 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,246 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,249 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,251 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,254 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,256 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,259 - trainer - INFO - gpt.base_model.model.transformer.h.36.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,261 - trainer - INFO - gpt.base_model.model.transformer.h.36.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,264 - trainer - INFO - gpt.base_model.model.transformer.h.36.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,266 - trainer - INFO - gpt.base_model.model.transformer.h.36.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,269 - trainer - INFO - gpt.base_model.model.transformer.h.36.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,271 - trainer - INFO - gpt.base_model.model.transformer.h.36.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,274 - trainer - INFO - gpt.base_model.model.transformer.h.36.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,277 - trainer - INFO - gpt.base_model.model.transformer.h.36.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,279 - trainer - INFO - gpt.base_model.model.transformer.h.36.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,282 - trainer - INFO - gpt.base_model.model.transformer.h.37.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,284 - trainer - INFO - gpt.base_model.model.transformer.h.37.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,287 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,289 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,292 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,294 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,297 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,299 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,302 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,304 - trainer - INFO - gpt.base_model.model.transformer.h.37.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,307 - trainer - INFO - gpt.base_model.model.transformer.h.37.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,309 - trainer - INFO - gpt.base_model.model.transformer.h.37.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,312 - trainer - INFO - gpt.base_model.model.transformer.h.37.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,314 - trainer - INFO - gpt.base_model.model.transformer.h.37.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,317 - trainer - INFO - gpt.base_model.model.transformer.h.37.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,319 - trainer - INFO - gpt.base_model.model.transformer.h.37.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,322 - trainer - INFO - gpt.base_model.model.transformer.h.37.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,325 - trainer - INFO - gpt.base_model.model.transformer.h.37.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,327 - trainer - INFO - gpt.base_model.model.transformer.h.38.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,330 - trainer - INFO - gpt.base_model.model.transformer.h.38.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,332 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,335 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,337 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,340 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,342 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,345 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,347 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,350 - trainer - INFO - gpt.base_model.model.transformer.h.38.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,352 - trainer - INFO - gpt.base_model.model.transformer.h.38.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,355 - trainer - INFO - gpt.base_model.model.transformer.h.38.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,357 - trainer - INFO - gpt.base_model.model.transformer.h.38.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,360 - trainer - INFO - gpt.base_model.model.transformer.h.38.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,362 - trainer - INFO - gpt.base_model.model.transformer.h.38.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,365 - trainer - INFO - gpt.base_model.model.transformer.h.38.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,367 - trainer - INFO - gpt.base_model.model.transformer.h.38.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,370 - trainer - INFO - gpt.base_model.model.transformer.h.38.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,373 - trainer - INFO - gpt.base_model.model.transformer.h.39.ln_1.weight	torch.Size([6144])
+2023-06-20 14:02:46,375 - trainer - INFO - gpt.base_model.model.transformer.h.39.ln_1.bias	torch.Size([6144])
+2023-06-20 14:02:46,378 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_attn.weight	torch.Size([6400, 6144])
+2023-06-20 14:02:46,380 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_attn.bias	torch.Size([6400])
+2023-06-20 14:02:46,383 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_attn.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,385 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_attn.lora_B.default.weight	torch.Size([6400, 8])
+2023-06-20 14:02:46,388 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_proj.weight	torch.Size([6144, 6144])
+2023-06-20 14:02:46,390 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,393 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_proj.lora_A.default.weight	torch.Size([8, 6144])
+2023-06-20 14:02:46,395 - trainer - INFO - gpt.base_model.model.transformer.h.39.attn.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,398 - trainer - INFO - gpt.base_model.model.transformer.h.39.ln_2.weight	torch.Size([6144])
+2023-06-20 14:02:46,400 - trainer - INFO - gpt.base_model.model.transformer.h.39.ln_2.bias	torch.Size([6144])
+2023-06-20 14:02:46,403 - trainer - INFO - gpt.base_model.model.transformer.h.39.mlp.c_fc.weight	torch.Size([24576, 6144])
+2023-06-20 14:02:46,405 - trainer - INFO - gpt.base_model.model.transformer.h.39.mlp.c_fc.bias	torch.Size([24576])
+2023-06-20 14:02:46,408 - trainer - INFO - gpt.base_model.model.transformer.h.39.mlp.c_proj.weight	torch.Size([6144, 24576])
+2023-06-20 14:02:46,410 - trainer - INFO - gpt.base_model.model.transformer.h.39.mlp.c_proj.bias	torch.Size([6144])
+2023-06-20 14:02:46,413 - trainer - INFO - gpt.base_model.model.transformer.h.39.mlp.c_proj.lora_A.default.weight	torch.Size([8, 24576])
+2023-06-20 14:02:46,416 - trainer - INFO - gpt.base_model.model.transformer.h.39.mlp.c_proj.lora_B.default.weight	torch.Size([6144, 8])
+2023-06-20 14:02:46,418 - trainer - INFO - gpt.base_model.model.transformer.ln_f.weight	torch.Size([6144])
+2023-06-20 14:02:46,421 - trainer - INFO - gpt.base_model.model.transformer.ln_f.bias	torch.Size([6144])
+2023-06-20 14:02:46,423 - trainer - INFO - gpt.base_model.model.lm_head.weight	torch.Size([49152, 6144])
+2023-06-20 14:02:46,423 - trainer - INFO - GPTSingleHead(
+  (gpt): PeftModelForCausalLM(
+    (base_model): LoraModel(
+      (model): GPTBigCodeForCausalLM(
+        (transformer): GPTBigCodeModel(
+          (wte): Embedding(49152, 6144)
+          (wpe): Embedding(8192, 6144)
+          (drop): Dropout(p=0.1, inplace=False)
+          (h): ModuleList(
+            (0): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (1): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (2): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (3): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (4): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (5): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (6): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (7): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (8): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (9): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (10): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (11): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (12): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (13): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (14): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (15): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (16): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (17): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (18): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (19): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (20): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (21): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (22): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (23): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (24): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (25): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (26): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (27): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (28): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (29): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (30): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (31): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (32): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (33): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (34): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (35): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (36): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (37): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (38): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (39): GPTBigCodeBlock(
+              (ln_1): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (attn): GPTBigCodeAttention(
+                (c_attn): Linear(
+                  in_features=6144, out_features=6400, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6400, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (c_proj): Linear(
+                  in_features=6144, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=6144, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (attn_dropout): Dropout(p=0.1, inplace=False)
+                (resid_dropout): Dropout(p=0.1, inplace=False)
+              )
+              (ln_2): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+              (mlp): GPTBigCodeMLP(
+                (c_fc): Linear(in_features=6144, out_features=24576, bias=True)
+                (c_proj): Linear(
+                  in_features=24576, out_features=6144, bias=True
+                  (lora_dropout): ModuleDict(
+                    (default): Dropout(p=0.05, inplace=False)
+                  )
+                  (lora_A): ModuleDict(
+                    (default): Linear(in_features=24576, out_features=8, bias=False)
+                  )
+                  (lora_B): ModuleDict(
+                    (default): Linear(in_features=8, out_features=6144, bias=False)
+                  )
+                  (lora_embedding_A): ParameterDict()
+                  (lora_embedding_B): ParameterDict()
+                )
+                (act): GELUActivation()
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+          )
+          (ln_f): LayerNorm((6144,), eps=1e-05, elementwise_affine=True)
+        )
+        (lm_head): Linear(in_features=6144, out_features=49152, bias=False)
+      )
+    )
+  )
+)
+2023-06-20 14:02:46,436 - trainer - INFO - EmptyHeads()
+2023-06-20 14:02:46,436 - trainer - INFO -   Total params: 15837222912
+2023-06-20 14:02:46,436 - trainer - INFO -   Trainable params: 17776640
+2023-06-20 14:02:46,436 - trainer - INFO -   Non-trainable params: 15819446272
+2023-06-20 14:02:46,439 - trainer - INFO -    Warmup-steps: 4
+2023-06-20 14:02:46,440 - trainer - INFO - ***** Running training *****
+2023-06-20 14:02:46,440 - trainer - INFO -   Num of training examples (actually iterations per epoch for Iterable Dataset) = 30
+2023-06-20 14:02:46,440 - trainer - INFO -   Output path (short): tmp/starcoder_finetuned
+2023-06-20 14:02:46,440 - trainer - INFO -   Steps per Epoch = 2 or iterations per epoch = 2
+2023-06-20 14:02:46,440 - trainer - INFO -   Num of Epochs = 10
+2023-06-20 14:02:46,441 - trainer - INFO -   Best score (perplexity) = -inf
+2023-06-20 14:02:46,441 - trainer - INFO -   Eval every 1000 steps or every 1000 iterations
+2023-06-20 14:02:46,441 - trainer - INFO -   Early stop = 20
+2023-06-20 14:02:46,441 - trainer - INFO -   Gradient Accumulation steps = 1
+2023-06-20 14:02:46,441 - trainer - INFO -   Total optimization steps = 20
+2023-06-20 14:02:46,441 - trainer - INFO -   Instantaneous batch size per GPU = 1 and n_gpu = 1 so the input batch size = 1

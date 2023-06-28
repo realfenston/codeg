@@ -1,0 +1,78 @@
+language    datasize    speed   testfilelen   performance
+C           90G         ~6s/r   ~100lines
+Java        90G         ~4s/r   ~100lines
+Python      87G         <1s/r   ~140lines
+C++         75G         ~2s/r   ~95lines
+C-sharp     30G         ~5s/r   ~90lines
+
+
+answers
+
+
+Python ~Transformers
+if isinstance(module, (nn.Linear, nn.Embedding)):
+    module.weight.data.normal_(mean=0.0, std=0.02)
+elif isinstance(module, nn.LayerNorm):
+    module.bias.data.zero_()
+    module.weight.data.fill_(1.0)
+if isinstance(module, nn.Linear) and module.bias is not None:
+    module.bias.data.zero_()
+
+if isinstance(module, nn.Linear):
+xavier_uniform_(module.weight)
+if module.bias is not None:
+    module.bias.data.zero_()
+
+for p in self.generator.parameters():
+    if p
+
+
+C-sharp answer ~OpenRA
+if (!int.TryParse(node.Key, out var key))
+    throw new YamlException($"Tileset `{terrainInfo.Id}` template `{Id}` defines a frame `{node.Key}` that is not a valid integer.");
+if (key < 0 || key >= tileInfo.Length)
+    throw new YamlException($"Tileset `{terrainInfo.Id}` template `{Id}` references frame {key}, but only [0..{tileInfo.Length - 1}] are valid for a {Size.X}x{Size.Y} Size template.");
+tileInfo[key] = LoadTileInfo(terrainInfo, node.Value);
+
+response
+if (!int.TryParse(node.Key, out var key))
+    throw new YamlException($"Tileset `{terrainInfo.Id}` template `{Id}` defines a frame `{node.Key}` that is not a valid integer.");
+
+if (
+
+
+Java answer ~Guava
+c = encoded.charAt(idx);
+if (c == '&' || c == '?' || c == '!' || c == ':' || c == ',') {
+    break;
+}
+
+response
+c = encoded.charAt(idx);
+if (c == '?' || c == ',') {
+// A '?' or ',' after a character indicates the end of the characters for this node.
+break;
+}
+
+
+C++ ~openpose
+tDatumPtr->elementRendered = spPoseRenderer->renderPose(
+                                tDatumPtr->outputData, tDatumPtr->poseKeypoints, (float)tDatumPtr->scaleInputToOutput,
+                                (float)tDatumPtr->scaleNetToOutput);
+
+if (tDatumPtr->id == -1)
+                        tDatumPtr->id = mGlobalCounter;
+
+C ~tee
+filepointers[i] = fopen(argv[i+optind], append ? "ab" : "wb");
+if (filepointers[i] == NULL)
+{
+    fprintf(stderr, "Can't open \"%s\"\n", argv[i+optind]);
+    exit(1);
+}
+
+if (append)
+    filepointers[i] = fopen(argv[i+optind], "a");
+else
+    filepointers[i] = fopen(argv[i+optind], "w");
+if (filepointers[

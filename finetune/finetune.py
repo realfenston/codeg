@@ -60,6 +60,7 @@ def get_args():
 
     parser.add_argument("--input_column_name", type=str, default="prompt")
     parser.add_argument("--output_column_name", type=str, default="completion")
+    parser.add_argument("--max_seq_length", type=int, default=8192)
 
     parser.add_argument("--seq_length", type=int, default=2048)
     parser.add_argument("--max_steps", type=int, default=10000)
@@ -303,10 +304,7 @@ def main(args):
 
 if __name__ == "__main__":
     args = get_args()
-
     set_seed(args.seed)
     os.makedirs(args.output_dir, exist_ok=True)
-
     logging.set_verbosity_error()
-
     main(args)
