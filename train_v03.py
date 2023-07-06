@@ -42,7 +42,7 @@ def get_args():
     parser.add_argument("--seq_length", type=int, default=1024)
     parser.add_argument("--max_steps", type=int, default=10000)
     parser.add_argument("--batch_size", type=int, default=2)
-    parser.add_argument("--gradient_accumulation_steps", type=int, default=8)
+    parser.add_argument("--gradient_accumulation_steps", type=int, default=1)
     parser.add_argument("--eos_token_id", type=int, default=49152)
 
     parser.add_argument("--lora_r", type=int, default=8)
@@ -196,7 +196,7 @@ def create_datasets(tokenizer, args):
         streaming=args.streaming,
     )
     '''
-    dataset = load_dataset('json', data_files=args.dataset_name, split='train', streaming=args.streaming)
+    dataset = load_dataset('json', data_files=args.dataset_name, split=args.split, streaming=args.streaming, num_proc=args.num_workers if not args.streaming else None,)
     if args.streaming:
         print("Loading the dataset in streaming mode")
         valid_data = dataset.take(args.size_valid_set)
@@ -241,6 +241,7 @@ def run_training(args, train_data, val_data):
     print("Loading the model")
     # disable caching mechanism when using gradient checkpointing
     
+    '''
     model = AutoModelForCausalLM.from_pretrained(
         args.model_path,
         trust_remote_code=True,
@@ -258,9 +259,8 @@ def run_training(args, train_data, val_data):
         model = AutoModelForCausalLM.from_config(config)
 
     model.tie_weights()
-    model = load_checkpoint_and_dispatch(model, checkpoint=args.model_path, device_map="auto", no_split_module_classes=["GPTBigCodeBlock"])
-    model = prepare_model_for_int8_training(model)
-    '''
+    model = load_checkpoint_and_dispatch(model, checkpoint=args.model_path, device_map="auto", no_split_module_classes=["GPTBigCodeBlock"], offload_folder='./offload', dtype=torch.float32)
+    # model = prepare_model_for_int8_training(model)
 
     lora_config = LoraConfig(
                     r=args.lora_r,
@@ -273,7 +273,6 @@ def run_training(args, train_data, val_data):
                 )
     model = get_peft_model(model, lora_config)
     
-
     def print_trainable_parameters(model):
         """
         Prints the number of trainable parameters in the model.

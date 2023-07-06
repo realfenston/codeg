@@ -1,0 +1,4 @@
+stage1:
+    train: 9000, val: 2000, test: 0, seq_length=2048, batch_size=1, gradient_accumulation_steps=1, fim_rate=fim_spm_rate=0.5, metrics=[0.20]
+stage2:
+    train: 9000, val: 2000, test: 100, seq_length=1024, batch_size=16, gradient_accumulation_steps=1, fim_rate=fim_spm_rate=0.5, metrics=[0.21]

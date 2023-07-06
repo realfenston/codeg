@@ -1,8 +1,5 @@
 # -*- coding: UTF-8 -*-
-"""
-pip install flask==2.2.3
-"""
-
+import argparse
 from flask import Flask
 from flask import request
 from flask import make_response, jsonify
@@ -18,7 +15,18 @@ app = Flask(__name__)
 bind_ip = "0.0.0.0"
 port = 8192
 endpoint = "/star/inference"
-model = LoraFinetunedModelInt8()
+
+
+def get_args():
+    parser = argparse.ArgumentParser(description='demo code generation')
+    parser.add_argument('--model_path', type=str, help='Path to model directory; due to intensive GPU resources, we load one model each time')
+    parser.add_argument('--peft_model_path', type=str, help='Path to peft model directory')
+    args = parser.parse_args()
+    return args
+
+
+args = get_args()
+model = LoraFinetunedModel(model_path=args.model_path, peft_model_path=args.peft_model_path)
 
 block_ips = {}
 cached_output = {}
@@ -46,15 +54,14 @@ def debugger():
         return make_response("OverLoaded", 500)
 
 
-@app.route(endpoint, methods=['POST'])
+@app.route(endpoint, methods=['POST', 'GET'])
 def route_chat():
     """
     request.json example: {"inputs": "", "parameters": {max_new_tokens:256}}
     @return: response
     """
-    
+    t1 = datetime.now()
     if block_repeated_requests(request.remote_addr):
-        time.sleep(1)
         # return make_response(jsonify({"generated_text": cached_output[request.remote_addr]}), 500)
         return make_response('Overloaded', 500)
     
@@ -69,13 +76,15 @@ def route_chat():
         with lock:
             cached_output[request.remote_addr] = new_code
             block_ips[request.remote_addr] = datetime.now()
+        
+        t2 = datetime.now()
+        print("the entire request execution takes: ", t2 - t1)
         return make_response(jsonify(response), 200)
     except Exception as e:
         return make_response(f"System error: {e}", 500)
 
 
 def code_generate(inputs, **kwargs):
-    # print(str(inputs))
     new_code = model.generate(inputs=inputs)
     return new_code
 

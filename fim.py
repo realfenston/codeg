@@ -28,6 +28,8 @@ def permute(
     pad_tok_id,
     fim_rate=0.5,
     fim_spm_rate=0.5,
+    fill_short_rate=0.8,
+    max_new_tokens=50,
     truncate_or_pad=False,
 ):
     """
@@ -36,12 +38,21 @@ def permute(
     """
 
     if np_rng.binomial(1, fim_rate):
-        boundaries = list(np_rng.randint(low=0, high=len(sample) + 1, size=2))
-        boundaries.sort()
+        if np_rng.binomial(1, fill_short_rate):
+            boundaries = np_rng.randint(low=0, high=len(sample) + 1, size=1)
+            filled_token_len = np_rng.randint(low=1, high=max_new_tokens + 1, size=1)
+            
+            prefix = np.array(sample[: boundaries], dtype=np.int64)
+            middle = np.array(sample[boundaries:min(boundaries + filled_token_len, len(sample))], dtype=np.int64)
+            suffix = np.array(sample[min(boundaries + filled_token_len, len(sample)):], dtype=np.int64)
+        
+        else:    
+            boundaries = list(np_rng.randint(low=0, high=len(sample) + 1, size=2))
+            boundaries.sort()
 
-        prefix = np.array(sample[: boundaries[0]], dtype=np.int64)
-        middle = np.array(sample[boundaries[0] : boundaries[1]], dtype=np.int64)
-        suffix = np.array(sample[boundaries[1] :], dtype=np.int64)
+            prefix = np.array(sample[: boundaries[0]], dtype=np.int64)
+            middle = np.array(sample[boundaries[0] : boundaries[1]], dtype=np.int64)
+            suffix = np.array(sample[boundaries[1] :], dtype=np.int64)
 
         if truncate_or_pad:
             new_length = suffix.shape[0] + prefix.shape[0] + middle.shape[0] + 3
